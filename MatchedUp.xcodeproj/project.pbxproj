@@ -24,6 +24,7 @@
 		01E5F00119BAADFF001B6D35 /* MatchedUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5F00019BAADFF001B6D35 /* MatchedUpTests.m */; };
 		01E5F00C19BAB171001B6D35 /* SMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5F00B19BAB171001B6D35 /* SMLoginViewController.m */; };
 		01E5F00F19BABF5B001B6D35 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E5F00E19BABF5B001B6D35 /* ParseFacebookUtils.framework */; };
+		01E5F01219BAE5AF001B6D35 /* SMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5F01119BAE5AF001B6D35 /* SMConstants.m */; };
 		105C4EE6BA0C43B98FCB5636 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C267FDF6E393406B81E2B9F0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,8 @@
 		01E5F00A19BAB171001B6D35 /* SMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLoginViewController.h; sourceTree = "<group>"; };
 		01E5F00B19BAB171001B6D35 /* SMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMLoginViewController.m; sourceTree = "<group>"; };
 		01E5F00E19BABF5B001B6D35 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		01E5F01019BAE5AF001B6D35 /* SMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMConstants.h; sourceTree = "<group>"; };
+		01E5F01119BAE5AF001B6D35 /* SMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMConstants.m; sourceTree = "<group>"; };
 		45A2079A107E45B1865597C7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		C267FDF6E393406B81E2B9F0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -149,6 +152,8 @@
 				01E5EFDB19BAADFF001B6D35 /* InfoPlist.strings */,
 				01E5EFDE19BAADFF001B6D35 /* main.m */,
 				01E5EFE019BAADFF001B6D35 /* MatchedUp-Prefix.pch */,
+				01E5F01019BAE5AF001B6D35 /* SMConstants.h */,
+				01E5F01119BAE5AF001B6D35 /* SMConstants.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -317,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01E5EFE919BAADFF001B6D35 /* SMFirstViewController.m in Sources */,
+				01E5F01219BAE5AF001B6D35 /* SMConstants.m in Sources */,
 				01E5F00C19BAB171001B6D35 /* SMLoginViewController.m in Sources */,
 				01E5EFE319BAADFF001B6D35 /* SMAppDelegate.m in Sources */,
 				01E5EFEC19BAADFF001B6D35 /* SMSecondViewController.m in Sources */,
