@@ -22,6 +22,7 @@
 		01E5EFF719BAADFF001B6D35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E5EFD619BAADFF001B6D35 /* UIKit.framework */; };
 		01E5EFFF19BAADFF001B6D35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01E5EFFD19BAADFF001B6D35 /* InfoPlist.strings */; };
 		01E5F00119BAADFF001B6D35 /* MatchedUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5F00019BAADFF001B6D35 /* MatchedUpTests.m */; };
+		01E5F00C19BAB171001B6D35 /* SMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5F00B19BAB171001B6D35 /* SMLoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		01E5EFFC19BAADFF001B6D35 /* MatchedUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchedUpTests-Info.plist"; sourceTree = "<group>"; };
 		01E5EFFE19BAADFF001B6D35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01E5F00019BAADFF001B6D35 /* MatchedUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchedUpTests.m; sourceTree = "<group>"; };
+		01E5F00A19BAB171001B6D35 /* SMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLoginViewController.h; sourceTree = "<group>"; };
+		01E5F00B19BAB171001B6D35 /* SMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMLoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,7 @@
 				01E5EFE119BAADFF001B6D35 /* SMAppDelegate.h */,
 				01E5EFE219BAADFF001B6D35 /* SMAppDelegate.m */,
 				01E5EFE419BAADFF001B6D35 /* Main.storyboard */,
+				01E5F00D19BAB17D001B6D35 /* Login */,
 				01E5EFE719BAADFF001B6D35 /* SMFirstViewController.h */,
 				01E5EFE819BAADFF001B6D35 /* SMFirstViewController.m */,
 				01E5EFEA19BAADFF001B6D35 /* SMSecondViewController.h */,
@@ -155,6 +159,15 @@
 				01E5EFFD19BAADFF001B6D35 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01E5F00D19BAB17D001B6D35 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				01E5F00A19BAB171001B6D35 /* SMLoginViewController.h */,
+				01E5F00B19BAB171001B6D35 /* SMLoginViewController.m */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01E5EFE919BAADFF001B6D35 /* SMFirstViewController.m in Sources */,
+				01E5F00C19BAB171001B6D35 /* SMLoginViewController.m in Sources */,
 				01E5EFE319BAADFF001B6D35 /* SMAppDelegate.m in Sources */,
 				01E5EFEC19BAADFF001B6D35 /* SMSecondViewController.m in Sources */,
 				01E5EFDF19BAADFF001B6D35 /* main.m in Sources */,
