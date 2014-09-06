@@ -10,11 +10,22 @@
 
 @implementation SMConstants
 
-NSString *const kSMUserProfileKey = @"profile";
-NSString *const kSMUserProfileNameKey = @"name";
-NSString *const kSMUserProfileFirstNameKey = @"first_name";
-NSString *const kSMUserProfileLocationKey = @"location";
-NSString *const kSMUserProfileGenderKey = @"gender";
-NSString *const kSMUserProfileBirthdayKey = @"birthday";
-NSString *const kSMUserProfileInterestedInKey = @"interested_in";
+#pragma mark - User Class
+
+
+NSString *const kSMUserProfileKey               = @"profile";
+NSString *const kSMUserProfileNameKey           = @"name";
+NSString *const kSMUserProfileFirstNameKey      = @"first_name";
+NSString *const kSMUserProfileLocationKey       = @"location";
+NSString *const kSMUserProfileGenderKey         = @"gender";
+NSString *const kSMUserProfileBirthdayKey       = @"birthday";
+NSString *const kSMUserProfileInterestedInKey   = @"interested_in";
+NSString *const kSMUserProfilePictureURL        = @"pictureURL";
+
+#pragma mark - Photo Class
+
+NSString *const kSMPhotoClassKey            = @"Photo";
+NSString *const kSMPhotoUserKey             = @"user";
+NSString *const kSMPhotoPictureKey          = @"image";
+
 @end
