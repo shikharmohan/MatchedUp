@@ -1,3 +1,4 @@
 platform :ios, '7.0'
 
-pod 'Parse'
+pod 'Parse-iOS-SDK', '->1.2'
+
