@@ -14,8 +14,6 @@
 		01E5EFDF19BAADFF001B6D35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5EFDE19BAADFF001B6D35 /* main.m */; };
 		01E5EFE319BAADFF001B6D35 /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5EFE219BAADFF001B6D35 /* SMAppDelegate.m */; };
 		01E5EFE619BAADFF001B6D35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E5EFE419BAADFF001B6D35 /* Main.storyboard */; };
-		01E5EFE919BAADFF001B6D35 /* SMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5EFE819BAADFF001B6D35 /* SMFirstViewController.m */; };
-		01E5EFEC19BAADFF001B6D35 /* SMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5EFEB19BAADFF001B6D35 /* SMSecondViewController.m */; };
 		01E5EFEE19BAADFF001B6D35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E5EFED19BAADFF001B6D35 /* Images.xcassets */; };
 		01E5EFF519BAADFF001B6D35 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E5EFF419BAADFF001B6D35 /* XCTest.framework */; };
 		01E5EFF619BAADFF001B6D35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E5EFD219BAADFF001B6D35 /* Foundation.framework */; };
@@ -25,6 +23,10 @@
 		01E5F00C19BAB171001B6D35 /* SMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5F00B19BAB171001B6D35 /* SMLoginViewController.m */; };
 		01E5F00F19BABF5B001B6D35 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E5F00E19BABF5B001B6D35 /* ParseFacebookUtils.framework */; };
 		01E5F01219BAE5AF001B6D35 /* SMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5F01119BAE5AF001B6D35 /* SMConstants.m */; };
+		01E5F01719BFE0AB001B6D35 /* SMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5F01619BFE0AB001B6D35 /* SMHomeViewController.m */; };
+		01E5F01B19BFE5E0001B6D35 /* SMSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5F01A19BFE5E0001B6D35 /* SMSettingsViewController.m */; };
+		01E5F01F19BFE8E8001B6D35 /* SMEditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5F01E19BFE8E8001B6D35 /* SMEditProfileViewController.m */; };
+		01E5F02319BFEE64001B6D35 /* SMProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5F02219BFEE64001B6D35 /* SMProfileViewController.m */; };
 		105C4EE6BA0C43B98FCB5636 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C267FDF6E393406B81E2B9F0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -50,10 +52,6 @@
 		01E5EFE119BAADFF001B6D35 /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
 		01E5EFE219BAADFF001B6D35 /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
 		01E5EFE519BAADFF001B6D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		01E5EFE719BAADFF001B6D35 /* SMFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMFirstViewController.h; sourceTree = "<group>"; };
-		01E5EFE819BAADFF001B6D35 /* SMFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMFirstViewController.m; sourceTree = "<group>"; };
-		01E5EFEA19BAADFF001B6D35 /* SMSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMSecondViewController.h; sourceTree = "<group>"; };
-		01E5EFEB19BAADFF001B6D35 /* SMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMSecondViewController.m; sourceTree = "<group>"; };
 		01E5EFED19BAADFF001B6D35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		01E5EFF319BAADFF001B6D35 /* MatchedUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchedUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E5EFF419BAADFF001B6D35 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -65,6 +63,14 @@
 		01E5F00E19BABF5B001B6D35 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		01E5F01019BAE5AF001B6D35 /* SMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMConstants.h; sourceTree = "<group>"; };
 		01E5F01119BAE5AF001B6D35 /* SMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMConstants.m; sourceTree = "<group>"; };
+		01E5F01519BFE0AB001B6D35 /* SMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMHomeViewController.h; sourceTree = "<group>"; };
+		01E5F01619BFE0AB001B6D35 /* SMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMHomeViewController.m; sourceTree = "<group>"; };
+		01E5F01919BFE5E0001B6D35 /* SMSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSettingsViewController.h; sourceTree = "<group>"; };
+		01E5F01A19BFE5E0001B6D35 /* SMSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSettingsViewController.m; sourceTree = "<group>"; };
+		01E5F01D19BFE8E8001B6D35 /* SMEditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMEditProfileViewController.h; sourceTree = "<group>"; };
+		01E5F01E19BFE8E8001B6D35 /* SMEditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMEditProfileViewController.m; sourceTree = "<group>"; };
+		01E5F02119BFEE64001B6D35 /* SMProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMProfileViewController.h; sourceTree = "<group>"; };
+		01E5F02219BFEE64001B6D35 /* SMProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMProfileViewController.m; sourceTree = "<group>"; };
 		45A2079A107E45B1865597C7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		C267FDF6E393406B81E2B9F0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -131,14 +137,14 @@
 		01E5EFD819BAADFF001B6D35 /* MatchedUp */ = {
 			isa = PBXGroup;
 			children = (
+				01E5F02019BFEE56001B6D35 /* Profile */,
+				01E5F01C19BFE8B0001B6D35 /* EditProfile */,
+				01E5F01819BFE523001B6D35 /* Settings */,
+				01E5F01419BFE08E001B6D35 /* Home */,
 				01E5EFE119BAADFF001B6D35 /* SMAppDelegate.h */,
 				01E5EFE219BAADFF001B6D35 /* SMAppDelegate.m */,
 				01E5EFE419BAADFF001B6D35 /* Main.storyboard */,
 				01E5F00D19BAB17D001B6D35 /* Login */,
-				01E5EFE719BAADFF001B6D35 /* SMFirstViewController.h */,
-				01E5EFE819BAADFF001B6D35 /* SMFirstViewController.m */,
-				01E5EFEA19BAADFF001B6D35 /* SMSecondViewController.h */,
-				01E5EFEB19BAADFF001B6D35 /* SMSecondViewController.m */,
 				01E5EFED19BAADFF001B6D35 /* Images.xcassets */,
 				01E5EFD919BAADFF001B6D35 /* Supporting Files */,
 			);
@@ -183,6 +189,42 @@
 				01E5F00B19BAB171001B6D35 /* SMLoginViewController.m */,
 			);
 			name = Login;
+			sourceTree = "<group>";
+		};
+		01E5F01419BFE08E001B6D35 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				01E5F01519BFE0AB001B6D35 /* SMHomeViewController.h */,
+				01E5F01619BFE0AB001B6D35 /* SMHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		01E5F01819BFE523001B6D35 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				01E5F01919BFE5E0001B6D35 /* SMSettingsViewController.h */,
+				01E5F01A19BFE5E0001B6D35 /* SMSettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		01E5F01C19BFE8B0001B6D35 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				01E5F01D19BFE8E8001B6D35 /* SMEditProfileViewController.h */,
+				01E5F01E19BFE8E8001B6D35 /* SMEditProfileViewController.m */,
+			);
+			name = EditProfile;
+			sourceTree = "<group>";
+		};
+		01E5F02019BFEE56001B6D35 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				01E5F02119BFEE64001B6D35 /* SMProfileViewController.h */,
+				01E5F02219BFEE64001B6D35 /* SMProfileViewController.m */,
+			);
+			name = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,11 +363,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01E5EFE919BAADFF001B6D35 /* SMFirstViewController.m in Sources */,
+				01E5F01F19BFE8E8001B6D35 /* SMEditProfileViewController.m in Sources */,
 				01E5F01219BAE5AF001B6D35 /* SMConstants.m in Sources */,
 				01E5F00C19BAB171001B6D35 /* SMLoginViewController.m in Sources */,
 				01E5EFE319BAADFF001B6D35 /* SMAppDelegate.m in Sources */,
-				01E5EFEC19BAADFF001B6D35 /* SMSecondViewController.m in Sources */,
+				01E5F02319BFEE64001B6D35 /* SMProfileViewController.m in Sources */,
+				01E5F01B19BFE5E0001B6D35 /* SMSettingsViewController.m in Sources */,
+				01E5F01719BFE0AB001B6D35 /* SMHomeViewController.m in Sources */,
 				01E5EFDF19BAADFF001B6D35 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,9 +505,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MatchedUp/MatchedUp-Prefix.pch";
 				INFOPLIST_FILE = "MatchedUp/MatchedUp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -483,9 +528,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MatchedUp/MatchedUp-Prefix.pch";
 				INFOPLIST_FILE = "MatchedUp/MatchedUp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

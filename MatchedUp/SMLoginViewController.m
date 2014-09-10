@@ -32,6 +32,21 @@
     
 }
 
+
+- (void) viewDidAppear:(BOOL)animated
+{
+    //check if user is cached adn linked to FB
+    if([PFUser currentUser] && [PFFacebookUtils isLinkedWithUser:[PFUser currentUser]])
+    {
+        //update FB user infomation
+        [self updateUserInformation];
+        //perform segue
+        [self performSegueWithIdentifier:@"loginToHomeSegue" sender:self];
+        
+    }
+    
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -71,7 +86,7 @@
         }
         else{
             [self updateUserInformation];
-            [self performSegueWithIdentifier:@"loginToTabBarSegue" sender:self];
+            [self performSegueWithIdentifier:@"loginToHomeSegue" sender:self];
             
         }
     }];
@@ -107,9 +122,22 @@
             }
             if(userDictionary[@"birthday"]){
                 userProfile[kSMUserProfileBirthdayKey] = userDictionary[@"birthday"];
+                //convert to age
+                NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+                [formatter setDateStyle:NSDateFormatterShortStyle];
+                NSDate *date = [formatter dateFromString:userDictionary[@"birthday"]];
+                NSDate *now = [NSDate date]; //current date
+                NSTimeInterval seconds = [now timeIntervalSinceDate:date];
+                int age = seconds/31536000;
+                userProfile[kSMUserProfileAgeKey] = @(age);
+                
+                
             }
             if(userDictionary[@"interested_in"]){
                 userProfile[kSMUserProfileInterestedInKey] = userDictionary[@"interested_in"];
+            }
+            if(userDictionary[@"relationship_status"]){
+                userProfile[kSMUserProfileRelationshipStatusKey] = userDictionary[@"relationship_status"];
             }
             if([pictureURL absoluteString]){
                 userProfile[kSMUserProfilePictureURL] = [pictureURL absoluteString];
@@ -170,6 +198,8 @@
     }];
 
 }
+
+//Delegate methods
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
 {
