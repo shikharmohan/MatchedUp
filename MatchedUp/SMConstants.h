@@ -12,6 +12,8 @@
 
 #pragma mark - User Class
 
+extern NSString *const kSMUserTagLineKey;
+
 //immutable pointer to mutable NSString obj
 extern NSString *const kSMUserProfileKey;
 extern NSString *const kSMUserProfileNameKey;
@@ -32,6 +34,15 @@ extern NSString *const kSMPhotoClassKey;
 extern NSString *const kSMPhotoUserKey;
 extern NSString *const kSMPhotoPictureKey;
 
+#pragma mark - Activity Class
+
+extern NSString *const kSMActivityClassKey;
+extern NSString *const kSMActivityTypeKey;
+extern NSString *const kSMActivityFromUserKey;
+extern NSString *const kSMActivityToUserKey;
+extern NSString *const kSMActivityPhotoKey;
+extern NSString *const kSMActivityTypeLikeKey;
+extern NSString *const kSMActivityTypeDislikeKey;
 
 
 
