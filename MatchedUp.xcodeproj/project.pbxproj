@@ -27,6 +27,8 @@
 		01E5F01B19BFE5E0001B6D35 /* SMSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5F01A19BFE5E0001B6D35 /* SMSettingsViewController.m */; };
 		01E5F01F19BFE8E8001B6D35 /* SMEditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5F01E19BFE8E8001B6D35 /* SMEditProfileViewController.m */; };
 		01E5F02319BFEE64001B6D35 /* SMProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5F02219BFEE64001B6D35 /* SMProfileViewController.m */; };
+		01E5F02719C0307A001B6D35 /* SMTestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5F02619C0307A001B6D35 /* SMTestUser.m */; };
+		01E5F02919C0311D001B6D35 /* leopard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01E5F02819C0311D001B6D35 /* leopard.jpg */; };
 		105C4EE6BA0C43B98FCB5636 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C267FDF6E393406B81E2B9F0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +73,9 @@
 		01E5F01E19BFE8E8001B6D35 /* SMEditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMEditProfileViewController.m; sourceTree = "<group>"; };
 		01E5F02119BFEE64001B6D35 /* SMProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMProfileViewController.h; sourceTree = "<group>"; };
 		01E5F02219BFEE64001B6D35 /* SMProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMProfileViewController.m; sourceTree = "<group>"; };
+		01E5F02519C0307A001B6D35 /* SMTestUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTestUser.h; sourceTree = "<group>"; };
+		01E5F02619C0307A001B6D35 /* SMTestUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTestUser.m; sourceTree = "<group>"; };
+		01E5F02819C0311D001B6D35 /* leopard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leopard.jpg; sourceTree = "<group>"; };
 		45A2079A107E45B1865597C7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		C267FDF6E393406B81E2B9F0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -155,6 +160,7 @@
 		01E5EFD919BAADFF001B6D35 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				01E5F02819C0311D001B6D35 /* leopard.jpg */,
 				01E5EFDA19BAADFF001B6D35 /* MatchedUp-Info.plist */,
 				01E5EFDB19BAADFF001B6D35 /* InfoPlist.strings */,
 				01E5EFDE19BAADFF001B6D35 /* main.m */,
@@ -231,6 +237,8 @@
 		01E5F02419C0302D001B6D35 /* CreateParseUser */ = {
 			isa = PBXGroup;
 			children = (
+				01E5F02519C0307A001B6D35 /* SMTestUser.h */,
+				01E5F02619C0307A001B6D35 /* SMTestUser.m */,
 			);
 			name = CreateParseUser;
 			sourceTree = "<group>";
@@ -318,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01E5EFEE19BAADFF001B6D35 /* Images.xcassets in Resources */,
+				01E5F02919C0311D001B6D35 /* leopard.jpg in Resources */,
 				01E5EFDD19BAADFF001B6D35 /* InfoPlist.strings in Resources */,
 				01E5EFE619BAADFF001B6D35 /* Main.storyboard in Resources */,
 			);
@@ -376,6 +385,7 @@
 				01E5F00C19BAB171001B6D35 /* SMLoginViewController.m in Sources */,
 				01E5EFE319BAADFF001B6D35 /* SMAppDelegate.m in Sources */,
 				01E5F02319BFEE64001B6D35 /* SMProfileViewController.m in Sources */,
+				01E5F02719C0307A001B6D35 /* SMTestUser.m in Sources */,
 				01E5F01B19BFE5E0001B6D35 /* SMSettingsViewController.m in Sources */,
 				01E5F01719BFE0AB001B6D35 /* SMHomeViewController.m in Sources */,
 				01E5EFDF19BAADFF001B6D35 /* main.m in Sources */,
